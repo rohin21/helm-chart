@@ -1,9 +1,9 @@
-namespace: test
+namespace: example
 
 labels:
   app: nginx
 
 ingress:
-  clusterIssuer: letsencrypt
+  clusterIssuer: letsencrypt-cluster-issuer
   ingressClassName: nginx
   host: test.supportgenie.in 
